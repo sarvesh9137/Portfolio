@@ -298,9 +298,61 @@
 .secondary-1 {
   width: 250px;
   height: 250px;
-  top: 60%;
-  left: 10%;
-  animation: ring-rotate-outer 25s linear infinite;
+  top: 20%;
+  left: 30%;
+  animation: spin-left 25s linear infinite;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .jarvis-hub {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .hub-top-right {
+    top: 10%;
+    right: -15%;
+    transform: scale(0.8);
+  }
+
+  .hub-center-left {
+    left: -15%;
+    transform: translateY(-50%) scale(0.6);
+  }
+
+  .hub-bottom-right {
+    bottom: 5%;
+    right: -10%;
+    transform: scale(0.5);
+  }
+  
+  .ring-outer {
+    width: 260px;
+    height: 260px;
+    margin: -130px 0 0 -130px;
+    border-width: 3px;
+  }
+  
+  .ring-middle {
+    width: 180px;
+    height: 180px;
+    margin: -90px 0 0 -90px;
+    border-width: 2px;
+  }
+  
+  .ring-inner {
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-width: 2px;
+  }
+  
+  .jarvis-core {
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+  }
 }
 
 .secondary-2 {

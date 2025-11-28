@@ -180,7 +180,7 @@ function App() {
       />
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center px-6 py-20">
+      <section id="home" className="relative min-h-screen flex items-center justify-center px-6 py-12 md:py-20">
         <div className="relative z-10 max-w-5xl mx-auto">
           {/* Profile Photo */}
           <div className="flex justify-center mb-8">
@@ -188,32 +188,32 @@ function App() {
               <img
                 src={profilePhoto}
                 alt="Sarvesh Singh"
-                className="profile-image w-40 h-40 md:w-48 md:h-48 object-cover"
+                className="profile-image w-32 h-32 md:w-48 md:h-48 object-cover"
               />
             </div>
           </div>
 
           <div className="text-center">
             <div className="mb-8 inline-block">
-              <h1 className="text-6xl md:text-8xl font-bold mb-4 text-gradient-name animate-pulse">
+              <h1 className="text-4xl sm:text-5xl md:text-8xl font-bold mb-4 text-gradient-name animate-pulse">
                 Sarvesh Singh ✨
               </h1>
               <div className="h-1 bg-gradient-to-r from-transparent via-cyan-400 to-transparent neon-line" />
             </div>
 
-            <p className="text-xl md:text-2xl mb-6 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-              A passionate <span className="text-cyan-400 neon-text font-semibold">Software Developement Engineer</span>
+            <p className="text-lg md:text-2xl mb-6 leading-relaxed px-4" style={{ color: 'var(--text-secondary)' }}>
+              A passionate <span className="text-cyan-400 font-semibold block md:inline">Software Developement Engineer</span>
             </p>
 
-            <p className="text-lg md:text-xl mb-4 max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
+            <p className="text-base md:text-xl mb-4 max-w-3xl mx-auto px-2" style={{ color: 'var(--text-secondary)' }}>
               Navigating the realms of databases, server-side logic, and seamless user interfaces.
             </p>
 
-            <p className="text-lg mb-6" style={{ color: 'var(--text-secondary)' }}>
+            <p className="text-base md:text-lg mb-6 px-2" style={{ color: 'var(--text-secondary)' }}>
               💻 I specialize in MERN stack and AIML technologies and enjoy building scalable, real-world web applications.
             </p>
 
-            <p className="text-lg text-pink-400 neon-text-pink mb-12">
+            <p className="text-base md:text-lg text-pink-400 mb-12 px-2">
               ❤️‍🔥 Beyond coding, I love collaborating with like-minded individuals and innovative teams.
             </p>
 
