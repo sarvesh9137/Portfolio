@@ -1,6 +1,6 @@
 # Sarvesh Singh - Software Development Engineer Portfolio 🚀
 
-![Portfolio Preview](https://via.placeholder.com/1200x600?text=Sarvesh+Singh+Portfolio+Preview)
+
 
 A futuristic, high-performance personal portfolio website featuring a **J.A.R.V.I.S-inspired 3D background**, **glassmorphism UI**, and seamless **Dark/Light theme** integration. Built with modern web technologies to showcase skills, projects, and services.
 
